@@ -1,5 +1,9 @@
 import pytest
-from owner_pet import Pet, Owner
+import sys
+sys.path.insert(0, '/home/reagan/Documents/moringa/phase/3/p3-oo-one-to-many-lab/lib')
+
+from owner_pets import Pet, Owner
+
 
 def test_owner_init():
     """Test Owner class initialization"""
